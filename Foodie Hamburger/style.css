@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container-content {
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+header {
+  max-width: 100%;
+  height: 100px;
+  position: sticky;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 61px;
+  height: 70.7245864868164px;
+  overflow: hidden;
+  margin-left: 45px;
+}
+
+.nav-section a {
+  text-decoration-line: none;
+  color: #492118;
+  font-size: 20.97px;
+  font-weight: 700;
+  margin-right: 48px;
+}
+
+.hero-section {
+  max-width: 1440px;
+  height: 824px;
+  background-color: #f6f0eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-section img {
+  max-width: 1230px;
+  max-height: 616.10400390625px;
+  margin-top: 75px;
+}
+
+.hero-section p {
+  font-size: 24px;
+  color: #492118;
+  font-weight: 400;
+}
+
+.topPicks {
+  font-size: 48px;
+  font-weight: 700;
+  color: #492118;
+  margin-bottom: 48px;
+}
+
+.menu-dishes {
+  max-width: 1440px;
+  height: 1030px;
+  background-color: #f6f0eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goto-Top {
+  align-self: flex-end;
+  margin-right: 150px;
+  margin-top: 80px;
+}
+.goto-Top a {
+  font-size: 32px;
+  font-weight: 700;
+  color: #492118;
+  align-self: flex-end;
+}
+
+.Utkarsh-Txt {
+  font-size: 24px;
+  font-weight: 500;
+  color: #858585;
+  margin-top: 40px;
+}
+
+.show-slider a {
+  text-decoration-line: none;
+  color: #492118;
+  font-size: 20.97px;
+  font-weight: 500;
+}
+.shadow {
+  position: absolute;
+  height: 120vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.459);
+  display: none;
+}
+
+.close-shadow {
+  display: block;
+}
+
+.close-icon {
+  display: none;
+}
+
+.open-btn {
+  display: none;
+}
+
+.menu-open-div {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-section a {
+    font-size: 16px;
+    margin-left: -10px;
+  }
+  .logo img {
+    width: 50px;
+    height: 60px;
+    margin-top: 5px;
+  }
+  .hero-section {
+    max-height: 624px;
+  }
+  .hero-section img {
+    max-width: 900px;
+    margin-top: 60px;
+    overflow: hidden;
+  }
+  .hero-section p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .menu-dishes {
+    height: 750px;
+  }
+  .menu-dishes img {
+    width: 800px;
+  }
+  .goto-Top {
+    align-self: flex-end;
+    margin-right: 150px;
+    margin-top: 30px;
+  }
+  .goto-Top a {
+    font-size: 25px;
+  }
+
+  .Utkarsh-Txt {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .hero-section img {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 853px) {
+  .menu-open-div {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    margin-right: -60px;
+    margin-top: -40px;
+  }
+
+  .open-btn {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    top: 15px;
+    cursor: pointer;
+  }
+
+  .nav-section {
+    position: absolute;
+    width: 220px;
+    height: 260px;
+    top: 20px;
+    right: 0;
+    padding: 25px;
+    background-color: #ffffffc7;
+    transition: right 700ms linear;
+    display: none;
+  }
+
+  .nav-section a {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 12px;
+  }
+
+  .close-icon {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 12px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  header {
+    height: 80px;
+    background-color: #f6f0ebc4;
+    position: sticky;
+  }
+
+  .hero-section {
+    height: 500px;
+  }
+  .hero-section img {
+    max-width: 680px;
+    margin-top: 80px;
+  }
+  .hero-section p {
+    margin-top: 10px;
+  }
+  .menu-dishes {
+    height: 600px;
+  }
+  .menu-dishes img {
+    max-width: 600px;
+  }
+  .goto-Top {
+    align-self: flex-end;
+    margin-right: 110px;
+    margin-top: 10px;
+  }
+  .goto-Top a {
+    font-size: 20px;
+  }
+
+  .Utkarsh-Txt {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .nav-section-open {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .hero-section img {
+    max-width: 600px;
+  }
+  .menu-dishes img {
+    max-width: 570px;
+  }
+  .Utkarsh-Txt {
+    margin-top: 20px;
+  }
+  .goto-Top {
+    margin-right: 70px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .hero-section img {
+    max-width: 550px;
+  }
+  .menu-dishes img {
+    max-width: 500px;
+  }
+
+  .topPicks {
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+  .menu-dishes {
+    height: 500px;
+  }
+  .Utkarsh-Txt {
+    margin-top: 10px;
+  }
+  .goto-Top {
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+  .hero-section {
+    max-height: 420.10400390625px;
+  }
+  .hero-section img {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .hero-section img {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .hero-section img {
+    max-width: 450px;
+  }
+  .menu-dishes img {
+    max-width: 410px;
+  }
+  .menu-dishes {
+    height: 440px;
+  }
+  .hero-section {
+    max-height: 400.10400390625px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .hero-section {
+    max-height: 350.10400390625px;
+  }
+  .hero-section img {
+    max-width: 395px;
+  }
+  .menu-dishes img {
+    max-width: 380px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  header {
+    height: 70px;
+    margin-left: -20px;
+  }
+  .logo img {
+    margin-top: 10px;
+  }
+  .hero-section {
+    height: 260px;
+  }
+  .hero-section p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .hero-section img {
+    max-width: 380px;
+  }
+
+  .menu-dishes {
+    max-height: 300px;
+  }
+  .menu-dishes img {
+    max-width: 300px;
+  }
+  .topPicks {
+    font-size: 25px;
+    margin-bottom: 28px;
+  }
+
+  .goto-Top {
+    display: none;
+  }
+
+  .Utkarsh-Txt {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .menu-open-div {
+    margin-right: -80px;
+    margin-top: -40px;
+    background-color: #ffffff;
+  }
+
+  .open-btn {
+    top: 15px;
+    margin-right: -10px;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .hero-section img {
+    width: 270px;
+  }
+  .menu-dishes img {
+    max-width: 260px;
+  }
+  .topPicks {
+    font-size: 20px;
+  }
+}

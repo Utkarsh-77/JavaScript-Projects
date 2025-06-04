@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(255, 166, 0, 0.644);
+}
+
+.popup {
+  display: none;
+  height: 400px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.904);
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  border-radius: 30px;
+  padding-left: 20px;
+  z-index: 2;
+}
+
+.closeBtn {
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  right: 17px;
+  cursor: pointer;
+}
+
+.container.open .popup {
+  display: block;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.733);
+  z-index: 1;
+}
+
+.container.open .overlay {
+  display: block;
+}

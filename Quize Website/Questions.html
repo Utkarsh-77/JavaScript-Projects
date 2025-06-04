@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="Questions.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <script src="Question.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="logo-speaker">
+          <img class="logo-img" src="/Images/Group 4.svg" alt="Quiz logo" />
+          <img
+            class="speaker-img"
+            src="/Images/Volume Up.svg"
+            alt="Speaker Icon"
+          />
+          <audio id="bg-audio">
+            <source src="/Audio/kbc-question.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <div class="question-nun">
+          <button class="question-number">01<span>/25</span></button>
+        </div>
+
+        <div class="question">
+          <p class="question-p"></p>
+        </div>
+
+        <div class="timer-box">
+          <p class="timer-b">00:30</p>
+        </div>
+
+        <div class="options-container">
+          <div class="btn">
+            <button class="Option-btn"></button>
+            <span class="correct-icon"
+              ><span class="choos"></span> <img class="img-icon" src=""
+            /></span>
+          </div>
+          <div class="btn">
+            <button class="Option-btn"></button>
+            <span class="correct-icon">
+              <span class="choos"></span> <img class="img-icon" src=""
+            /></span>
+          </div>
+          <div class="btn">
+            <button class="Option-btn"></button>
+            <span class="correct-icon">
+              <span class="choos"></span> <img class="img-icon" src=""
+            /></span>
+          </div>
+          <div class="btn">
+            <button class="Option-btn"></button>
+            <span class="correct-icon">
+              <span class="choos"></span> <img class="img-icon" src=""
+            /></span>
+          </div>
+        </div>
+
+        <div class="next-ques-div">
+          <a class="end-anchor"><p class="next-question">Next ></p></a>
+        </div>
+        <p class="owner">Made with ❤️ by Utkarsh</p>
+      </div>
+    </main>
+  </body>
+</html>

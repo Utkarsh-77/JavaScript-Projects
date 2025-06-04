@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Avenir, Calibri, Verdana, Geneva, sans-serif;
+}
+
+.container {
+  /* Fixed typo */
+  height: 100vh;
+  max-width: 100vw;
+  background-image: url("/sky_1600x290.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  flex-direction: column; /* Stack time and date */
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center text inside */
+}
+
+.time {
+  font-size: 185px;
+}
+
+.date {
+  font-size: 23px;
+  font-weight: 500;
+}
